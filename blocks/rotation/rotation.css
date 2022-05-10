@@ -1,17 +1,5 @@
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  to {
-    tranform: rotate(360deg);
-  }
-}
-
 @keyframes rotation {
   from {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
@@ -21,9 +9,6 @@
 }
 
 .rotation {
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-  -webkit-animation: rotation 20s infinite linear;
   animation: rotation 20s infinite linear;
 }
