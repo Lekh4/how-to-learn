@@ -1,9 +1,0 @@
-.footer__column-link_type_opacity {
-    -webkit-transition: opacity .5s linear;
-    -o-transition: opacity .5s linear;
-    transition: opacity .5s linear;
-  }
-  
-  .footer__column-link_type_opacity:hover {
-    opacity: .2;
-  }
